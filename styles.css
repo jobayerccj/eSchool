@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #F0FFF0;
+}
+
+#firstSection{
+    padding-top: 6%;
+    background-color: #F0FFF0;
+    height: 468px;
+}
+
+#firstSection h1{
+    font-weight: bold;
+}
+
+#schText{
+    color: #21B573;
+}
+
+#section1P1{
+    color: #FD511A;
+}
+
+.greenBtn{
+    border-radius: 22px;
+    padding: 5px 25px !important;
+    color: #fff !important;
+    background-color: #21B573;
+    border-color: #21B573;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+}
+
+
+
+#infoSection{
+    padding-top: 3%;
+    padding-bottom: 26%;
+}
+
+#bookIcon{
+    width: 20%;
+}
+
+.smallCard .card-img-top{
+    width: 25%;
+}
+
+.smallCard{
+    background-color: #f8fffb;
+    border-color: #f8fffb;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.selectedCard{
+    background-color: #fff;
+    box-shadow: 0px 11px 21px -6px #C0C0C0;
+}
+
+#coursesSection h1{
+    padding-bottom: 5%;
+}
+
+#coursesSection .card{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 18px;
+}
+
+#coursesSection .card-body{
+    padding-bottom: 0;
+}
+
+.lgCardDate, .lgCardSeat{
+    font-size: 14px;
+}
+
+.lgCardDate:before{
+    content: '';
+    background:url('icons/calendar.png');
+    background-size:cover;
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+}
+
+.lgCardSeat:before{
+    content: '';
+    background:url('icons/people.png');
+    background-size:cover;
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+}
+
+.lgCard{
+    background-color: #fff;
+    box-shadow: 0px 11px 21px -6px #C0C0C0;
+    border-color: #fff;
+}
+
+#coursesSection{
+    padding-top: 7%;
+    margin-bottom: 42%;
+}
+
+#testimonialSection{
+    padding-top: 7%;
+    margin-bottom: 14%;
+}
+
+#testmonialHead{
+    padding-bottom: 3%;
+}
+
+#testimonialSection p{
+    padding-top: 4%;
+}
+
+#testimonialSection img{
+    width: 80%;
+}
+
+#footerSection{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: #282531;
+}
+
+#footerP{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footerMenu h5{
+    color: #ffffff;
+}
+
+.footerMenu ul li a{
+    color: #ffffff;
+}
+
+#copyrightText{
+    margin-top: 40px;
+    color: #CDCDCD;
+}
+
+#newsletterSection{
+    padding-top: 7%;
+    padding-bottom: 7rem;
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    #coursesSection {
+        padding-top: 17%;
+    }
+
+    #testimonialSection{
+        padding-top: 22%;
+    }
+}
+
+@media (max-width: 414px){
+    #testimonialSection{
+        padding-top: 340%;
+    }
+
+    .card{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    #testimonialSection {
+        padding-top: 360%;
+    }
+}
